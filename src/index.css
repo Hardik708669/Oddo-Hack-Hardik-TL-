@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Skill Swap Platform Design System - Black & Purple Theme */
+
+@layer base {
+  :root {
+    /* Dark background with purple accents */
+    --background: 240 10% 3.9%;
+    --foreground: 270 5% 95%;
+
+    /* Card styling */
+    --card: 240 10% 7%;
+    --card-foreground: 270 5% 95%;
+
+    /* Popover styling */
+    --popover: 240 10% 7%;
+    --popover-foreground: 270 5% 95%;
+
+    /* Primary purple theme */
+    --primary: 270 91% 65%;
+    --primary-foreground: 240 10% 3.9%;
+    --primary-glow: 270 100% 80%;
+
+    /* Secondary dark purple */
+    --secondary: 260 30% 15%;
+    --secondary-foreground: 270 5% 95%;
+
+    /* Muted elements */
+    --muted: 240 5% 15%;
+    --muted-foreground: 270 5% 65%;
+
+    /* Accent purple */
+    --accent: 270 60% 25%;
+    --accent-foreground: 270 5% 95%;
+
+    /* Destructive red */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Success green */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+
+    /* Warning orange */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 3%;
+
+    /* Borders and inputs */
+    --border: 240 15% 20%;
+    --input: 240 15% 15%;
+    --ring: 270 91% 65%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(270 91% 65%), hsl(270 100% 80%));
+    --gradient-dark: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(260 30% 15%));
+    --gradient-card: linear-gradient(135deg, hsl(240 10% 7%), hsl(240 15% 12%));
+
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(270 91% 65% / 0.3);
+    --shadow-card: 0 10px 30px -10px hsl(240 10% 3.9% / 0.5);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
