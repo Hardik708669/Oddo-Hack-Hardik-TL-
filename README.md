@@ -32,12 +32,6 @@ Whether it's trading Photoshop for Excel, guitar lessons for coding help, or pub
 
 ---
 
-## 📸 Preview
-
-*Coming soon – screenshots or demo GIFs*
-
----
-
 ## Mock Up Link
 
 **Mockup** -  https://link.excalidraw.com/l/65VNwvy7c4X/8bM86GXnnUN
