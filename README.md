@@ -38,28 +38,13 @@ Whether it's trading Photoshop for Excel, guitar lessons for coding help, or pub
 
 ---
 
-## 🛠️ Tech Stack (Example)
+## Mock Up Link
 
-> Replace with your actual stack
+**Mockup** -  https://link.excalidraw.com/l/65VNwvy7c4X/8bM86GXnnUN
 
-- Frontend: React / HTML + CSS / Tailwind
-- Backend: Node.js / Express
-- Database: MongoDB / Firebase
-- Authentication: JWT / OAuth
+> 
+## Team Members 
 
----
-
-## 📦 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/skill-swap-platform.git
-
-# Go into the project directory
-cd skill-swap-platform
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
+**Team Name** :- Code Predators
+- **Hardik Mihani (TL)**
+- **Vishal Tolwani** 
